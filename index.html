@@ -8,12 +8,19 @@
 
     <body>
 
+
         <div class="wrapper">
             <div class="btn">
-                <button class="button">JavaScript modal</button>
+                <button type="button" class="button" onclick="openModal();">JavaScript modal</button>
             </div>
         </div>
-
+        <div class="modal">
+            <div class="modal-title">Title</div>
+            <div class="modal-content">{content}</div>
+            <div class="modal-footer">
+                <div class="modal-button modal-close">{close modal}</div>
+            </div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>

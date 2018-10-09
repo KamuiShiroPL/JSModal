@@ -77,3 +77,32 @@ button:hover:after {
     opacity: 1;
     transition: .7s;
 }
+
+.modal {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid #ccc;
+    width:60%;
+    /* height: 500px; */
+    background-color: #ccc;
+    color: white;  
+    display: none;
+    z-index: 10;
+}
+
+.modal-title {
+    font-size: 19px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: 1px solid black;
+    padding: 10px;
+}
