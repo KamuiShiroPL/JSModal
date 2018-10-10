@@ -11,14 +11,16 @@
 
         <div class="wrapper">
             <div class="btn">
-                <button type="button" class="button" onclick="openModal();">JavaScript modal</button>
+                <button type="button" class="button" onclick="openModal('Title here', 'Content here');">JavaScript modal</button>
             </div>
         </div>
         <div class="modal">
             <div class="modal-title">Title</div>
             <div class="modal-content">{content}</div>
             <div class="modal-footer">
-                <div class="modal-button modal-close">{close modal}</div>
+                <div class="modal-button modal-close">
+                    <button class="btn-close" onclick="closeModal();">Close</button>
+                </div>
             </div>
         </div>
         <script src="script.js"></script>
